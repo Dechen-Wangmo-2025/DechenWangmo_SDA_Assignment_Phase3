@@ -117,14 +117,14 @@ body {
 .bread-gallery {
   display: flex;
   gap: 1rem;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   margin-top: 2rem;
 }
 .bread-gallery img {
   width: 25%;
   border-radius: 10px;
-  grid-template-columns: repeat(auto-fit, (4, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 /* ABOUT */
